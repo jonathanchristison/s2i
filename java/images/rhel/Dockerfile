@@ -1,4 +1,4 @@
-FROM jboss-base-7/jdk8:1.2-28
+FROM jboss-base-7/jdk8:1.3-11
 
 ENV JOLOKIA_VERSION="1.3.6.redhat-1" \
     PATH=$PATH:"/usr/local/s2i" \
